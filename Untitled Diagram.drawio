@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T01:45:29.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="jUZHyXRx0Y9bwbrNmT2F" version="18.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-16T02:05:07.071Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="f3mzG0j6j36r3HmCC6M_" version="18.0.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="946" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1261" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
         <mxCell id="c0IAxRShgn0mqBckQtSa-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="55" y="458" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c0IAxRShgn0mqBckQtSa-27" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="c0IAxRShgn0mqBckQtSa-26" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="c0IAxRShgn0mqBckQtSa-27" value="设备编号查找工位，商品，人员组&lt;br&gt;周转筐查询装框信息，并核对信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="c0IAxRShgn0mqBckQtSa-26" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="439" as="sourcePoint" />
             <Array as="points">
@@ -89,13 +89,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c0IAxRShgn0mqBckQtSa-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
-          <mxGeometry x="55" y="580" width="10" height="40" as="geometry" />
+          <mxGeometry x="55" y="565" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c0IAxRShgn0mqBckQtSa-29" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="c0IAxRShgn0mqBckQtSa-28" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="c0IAxRShgn0mqBckQtSa-29" value="校验工位信息=复核工位&lt;br&gt;商品信息 和装框信息是否一致" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="c0IAxRShgn0mqBckQtSa-28" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="560" as="sourcePoint" />
+            <mxPoint x="60" y="545" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="90" y="560" />
+              <mxPoint x="90" y="545" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -113,6 +113,23 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="177" y="519" as="sourcePoint" />
             <mxPoint x="347" y="519" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0IAxRShgn0mqBckQtSa-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="355" y="723" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c0IAxRShgn0mqBckQtSa-35" value="更新装框记录 复核数量，复核人员组，复核时间&lt;br&gt;设置筐为闲置状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="c0IAxRShgn0mqBckQtSa-34" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="703" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="390" y="703" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0IAxRShgn0mqBckQtSa-36" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="174" y="769.9999999999998" as="targetPoint" />
+            <mxPoint x="344" y="769.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
